@@ -41,7 +41,7 @@
   &__burger {
     --line-width: 28px;
     --line-height: 1px;
-    --line-color: rgba(#000000, 0.8);
+    --line-color: var(--black-lighten-color);
 
     @include btn-default();
 
@@ -61,16 +61,16 @@
       display: block;
       width: var(--line-width);
       height: var(--line-height);
-      background-color: rgba(#000000, 0.8);
+      background-color: var(--black-lighten-color);
 
       &::before,
       &::after {
         content: "";
         position: absolute;
         left: 0;
-        width: var(--line-width);
-        height: var(--line-height);
-        background-color: rgba(#000000, 0.8);
+        width: 28px;
+        height: 1px;
+        background-color: var(--black-lighten-color);
       }
 
       &::before {

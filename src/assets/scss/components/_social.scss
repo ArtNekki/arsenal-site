@@ -22,7 +22,7 @@
     line-height: 31px;
     text-align: center;
     letter-spacing: 0.085px;
-    color: rgba(#000000, 0.8);
+    color: var(--black-lighten-color);
 
     .social--footer & {
       @include media-breakpoint-up(lg) {

@@ -71,7 +71,7 @@
     font-family: $font-family;
     font-size: 14.8px;
     line-height: 42px;
-    color: rgba(#000000, 0.8);
+    color: var(--black-lighten-color);
     text-decoration: none;
   }
 
@@ -97,7 +97,7 @@
     line-height: 15px;
     text-decoration: none;
     text-align: center;
-    color: rgba(#000000, 0.8);
+    color: var(--black-lighten-color);
     border: 1px solid rgba(#000000, 0.25);
     border-radius: 20px;
     transition: background-color .3s linear, border-color .3s linear;

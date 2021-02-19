@@ -37,7 +37,7 @@
   }
 
   &--black {
-    color: rgba(#000000, 0.8);
+    color: var(--black-lighten-color);
 
     &::before {
       background-color: rgba(#000000, 0.5);
